@@ -1,0 +1,99 @@
+.App {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Header {
+  background-color: rgb(112, 151, 223);
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.Home {
+  margin-left: 50px;
+}
+.App-Body {
+  background-color: rgb(17, 17, 17);
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Info-Container {
+  background-color: whitesmoke;
+  width: 85%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.Button-Container {
+  width: 85%;
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Center-Buttons{
+  width: 23%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Blue-Button {
+  padding: 4px 15px;
+  background-color: rgb(112, 151, 223);
+  border-radius: 25px;
+  border: none;
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.Button button {
+  border: none;
+  text-decoration: none;
+  background: none;
+  color: whitesmoke;
+  font-size: 1.5rem;
+}
+button:hover{
+  cursor: pointer;
+}
+.Person-Info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+  width: 80%;
+  margin: auto;
+}
+.Person-Index{
+  width: 100%;
+  height: 3vh;
+  display: flex;
+  justify-content: flex-end;
+}
+.Person-Name{
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  justify-content: flex-start;
+}
+.Employee-Data{
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.Favorite-Movies-List{
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
